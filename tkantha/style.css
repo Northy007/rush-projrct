@@ -99,7 +99,7 @@ h1{
 
 .profile img{
     grid-area: img;
-    border-radius: 10%;
+    border-radius: 0%;
     width: auto;
     height: 400px;
     margin-left: 10%;

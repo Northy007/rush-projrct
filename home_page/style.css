@@ -120,7 +120,13 @@
 }
 
 .box2 {
+    transition: 0.3s;
     background-image: url("https://scontent.fbkk4-2.fna.fbcdn.net/v/t39.30808-6/320556420_523846969781670_5530853513042832166_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE215cYNDQpl1PuEeevHvnptGVU-tICeG60ZVT60gJ4bpfgaRCxjb99Em7zkq3swpLmx_wHZYR66RG9p2F1w5dw&_nc_ohc=COGUgVHSGhsAX_FgSPX&_nc_zt=23&_nc_ht=scontent.fbkk4-2.fna&oh=00_AfDIjkYMEy7jfn71xfwtsIh5xjxqZ1pcKOkhWO6S_RWRWw&oe=63ED1060");
+}
+
+.box2:hover,.box1:hover{
+    transition: 0.3s;
+    filter: brightness(70%);
 }
 
 .phuket h2 {

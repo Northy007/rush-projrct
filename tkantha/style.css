@@ -144,8 +144,71 @@ h1,h2{
 
 .skill{
     display: grid;
+    grid-template-areas: 
+    "program other";
+    grid-template-columns: 40% 60%;
     width: 100%;
     height: 600px;
+}
+.skill .power{
+    grid-area: program;
+    margin-left: 15%;
+    width: 100%;
+    border-right: 1px solid black;
+}
+.power h2{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: large;
+}
+.power .box{
+    background-color: gray;
+    
+}
+.box .html{
+    width: 90%;
+    padding-top: 25px;
+    height: 40px;
+    background-color: #04AA6D;
+    
+}
+
+.box .css{
+    width: 80%;
+    height: 40px;
+    padding-top: 25px;
+    background-color: #199ee0;
+}
+
+.box .js{
+    width: 40%;
+    height: 40px;
+    padding-top: 25px;
+    background-color: #f1b500;
+}
+
+.box .c{
+    width:75%;
+    height: 40px;
+    padding-top: 25px;
+    background-color: #6fc2ee;
+}
+
+.box .python{
+    width: 90%;
+    height: 40px;
+    padding-top: 25px;
+    background-color: #e8c356;
+}
+
+.skill .special{
+    grid-area: other;
+    text-align: center;
+
+}
+
+.special img{
+    width: 200px;
 }
 
 .contact{

@@ -204,11 +204,11 @@ h1,h2{
 .skill .special{
     grid-area: other;
     text-align: center;
-
+    font-family: 'Poppins';
 }
 
 .special img{
-    width: 200px;
+    width: 400px;
 }
 
 .contact{
